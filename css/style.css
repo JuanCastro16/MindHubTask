@@ -1,0 +1,89 @@
+body {
+  margin-top: 3rem;
+  margin-left: 6rem;
+}
+
+header {
+  display: flex;
+}
+
+nav{
+  padding-left: 2rem;
+}
+
+.nav_bar {
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: black;
+}
+
+.nav_bar:hover {
+  color: #ffffff;
+  background-color: grey;
+  padding: 0.5rem;
+  border-radius: 5px;
+  transition: all, 0.7s;
+}
+
+strong {
+  font-size: 1.2rem ;
+}
+
+main {
+  display: flex;
+}
+
+.header{
+  display: flex;
+  flex-direction: column;
+  margin-left: 2rem;
+}
+
+.logo {
+  margin-bottom: 2rem;
+  width: 10rem;
+  height: 10rem;
+}
+
+.img1 {
+  margin-top: 2rem;
+  width: 10rem;
+  height: 10rem;
+}
+
+.info {
+  margin-left: 5rem;
+}
+
+.info_contact {
+  margin-left: 2rem;
+  font-size: 1.1rem;
+}
+
+h3 {
+  margin: 0;
+  padding-left: 2rem;
+}
+
+p {
+  margin: 0;
+  padding-top: 0.3rem;
+  padding-left: 3.5rem;
+  padding-bottom: 1rem;
+}
+
+span{
+  padding-left: 20px;
+}
+
+.about_h3{
+  font-size: 1.5rem;
+}
+
+.url {
+  text-decoration: none;
+}
+
+.url:hover {
+  text-decoration: underline;
+}

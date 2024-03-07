@@ -13,7 +13,7 @@ body {
   display: flex;
   align-items: center;
   padding-left: 5rem;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/design1_image2.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/img/design1_image2.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -25,6 +25,7 @@ body {
 
 .info {
   display: flex;
+  padding: 1rem;
   margin-top: .5rem;
   background-color: #000000;
   color: #ffffff;
@@ -33,25 +34,18 @@ body {
 
 .subTitle {
   display: flex;
-  flex-direction: column;
-  width: 70%;
   text-align: center;
-  align-self: center;
   padding-left: 40%;
   padding-right: 1rem
 }
 
-.SubTitle_img{
-  display: flex;
-  justify-content: center;
-  width: 40%;
-  padding-right: 5rem;
-}
-
 .imgLogo{
-  border: 5px solid #ffffff;
-  width: 120px;
-  height: 120px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  width: 130px;
+  height: 130px;
+  position: absolute;
+  top: 525px; left: 1080px;
 }
 
 
@@ -75,22 +69,26 @@ ul>li {
   flex-direction: column;
 }
 
+
+
 .nav_bar {
+  background-color: rgba(0, 0, 0, 0.192);
+  box-shadow: -7px 5px 5px #5d5d5d;
   margin-bottom: 2rem;
   text-decoration: none;
   padding: 1rem 0 1rem 1rem;
   font-size: 1rem;
   color: #000000;
+  border-radius: 10px;
 }
 
 .nav_bar:hover {
   text-decoration: underline;
-  padding: 1rem 0 1rem 1rem;
+  padding: 1.3rem;
   background-color: #000000;
   color: #ffffff;
   border-radius: 10px;
-  transition: all .8s;
-  box-shadow: -7px 5px 5px #5d5d5d;
+  transition: all .5s;
 }
 
 .section {
@@ -132,4 +130,7 @@ footer {
   justify-content: center;
   padding: 2rem;
   font-size: 1rem;
+  background-color: #00000011;
+  border-radius: 10px;
+
 }

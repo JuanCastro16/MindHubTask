@@ -1,0 +1,133 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 1rem 1rem 0 1rem;
+  background-color: #86888865;
+}
+
+header {
+  font-size: .7rem;
+  background-color: #211915;
+  color: #babab9;
+  padding: 1.4rem;
+  margin-bottom: .3rem;
+  border-radius: 5px;
+}
+
+.info {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/img/design1_image1.jpg);
+  background-repeat: no-repeat;
+  background-position: 0% 25%;;
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  text-align: justify;
+  padding: 13rem;
+  color: #ffffff;
+}
+
+.subTitle{
+  align-self: center;
+  position: absolute;
+  top: 280px; left: 80px;
+}
+
+.subTitle>h2 {
+  padding-bottom: 1.5rem;
+}
+
+.subTitle>p {
+  width: 45%;
+}
+
+.imgLogo {
+  width: 78px;
+  height: 78px;
+  position: absolute;
+  top: 10px; right: 728px;
+}
+
+ul {
+  padding: 1rem 0 1rem 1rem;
+  list-style: none;
+  margin-bottom: 1rem;
+  position: absolute;
+  top: 25px; right: 40px;
+}
+
+li>a {
+  color: #ffffff9e;
+  text-decoration: none;
+  margin: 4px;
+  padding: 8px 18px;
+  border-radius: 6px;
+}
+
+li>a:hover{
+  color: #ffffffbf;
+  box-shadow: none;
+  background-color: #59473e;
+  text-decoration: underline;
+  padding: 8px 18px;
+  border-radius: 6px;
+  transition: all .5s;
+}
+
+.section_2{
+  margin-bottom: 1rem;
+  border: 3px solid #000000;
+}
+
+
+.main_h3_2 {
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 5px;
+  background-color: #403129ac;
+}
+
+.main_h3_2>h3 {
+  color: #ffffffbf;
+  font-size: 1.2rem;
+  text-decoration: underline;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.main_paragraph_2 {
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 5px;
+}
+
+.main_para {
+  
+  padding: 1rem;
+  width: 31%;
+  text-align: justify;
+}
+
+.info_contact, 
+.info_p {
+  padding: 1rem;
+  text-align: justify;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+  font-size: 1rem;
+  background-color: #211915;
+  color: #ffffffbf;
+}

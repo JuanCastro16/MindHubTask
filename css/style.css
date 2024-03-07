@@ -1,83 +1,122 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
 body {
-  margin-top: 3rem;
-  margin-left: 6rem;
-}
-
-header {
-  display: flex;
-}
-
-nav{
-  padding-left: 2rem;
-}
-
-.nav_bar {
-  font-size: 1.2rem;
-  text-decoration: none;
-  color: black;
-}
-
-.nav_bar:hover {
-  color: #ffffff;
-  background-color: grey;
-  padding: 0.5rem;
-  border-radius: 5px;
-  transition: all, 0.7s;
-}
-
-strong {
-  font-size: 1.2rem ;
-}
-
-main {
-  display: flex;
+  padding: 3.5rem 3.5rem 1rem 3.5rem;
 }
 
 .header{
   display: flex;
-  flex-direction: column;
-  margin-left: 2rem;
-}
-
-.logo {
-  margin-bottom: 2rem;
-  width: 10rem;
-  height: 10rem;
-}
-
-.img {
-  margin-top: 2rem;
-  width: 10rem;
-  height: 10rem;
+  align-items: center;
+  padding-left: 5rem;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/design1_image2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffffff;
+  height: 500px;
+  font-size: 1.5rem;
+  border-radius: 5px;
 }
 
 .info {
-  margin-left: 5rem;
+  display: flex;
+  margin-top: .5rem;
+  background-color: #000000;
+  color: #ffffff;
+  border-radius: 5px;
+}
+
+.subTitle {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  text-align: center;
+  align-self: center;
+  padding-left: 40%;
+  padding-right: 1rem
+}
+
+.SubTitle_img{
+  display: flex;
+  justify-content: center;
+  width: 40%;
+  padding-right: 5rem;
+}
+
+.imgLogo{
+  border: 5px solid #ffffff;
+  width: 120px;
+  height: 120px;
+}
+
+
+main {
+  display: flex;
+  margin: 30px 20px;
+}
+
+ul{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  list-style: none;
+  width: 20%;
+  padding-left: 20px;
+  margin-right: 3rem;
+}
+
+ul>li {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav_bar {
+  margin-bottom: 2rem;
+  text-decoration: none;
+  padding: 1rem 0 1rem 1rem;
+  font-size: 1rem;
+  color: #000000;
+}
+
+.nav_bar:hover {
+  text-decoration: underline;
+  padding: 1rem 0 1rem 1rem;
+  background-color: #000000;
+  color: #ffffff;
+  border-radius: 10px;
+  transition: all .8s;
+  box-shadow: -7px 5px 5px #5d5d5d;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  margin: 1rem;
+  padding: 0.5rem;
+}
+
+
+.section>p {
+  padding: .5rem 0 1.5rem 1rem;
 }
 
 .info_contact {
-  margin-left: 2rem;
-  font-size: 1.1rem;
-}
-
-h3 {
-  margin: 0;
-  padding-left: 2rem;
-}
-
-p {
-  margin: 0;
-  padding-top: 0.3rem;
-  padding-left: 3.5rem;
   padding-bottom: 1rem;
+}
+
+.info_p {
+  padding-bottom: 8rem;
 }
 
 span{
   padding-left: 20px;
-}
-
-.about_h3{
-  font-size: 1.5rem;
 }
 
 .url {
@@ -86,4 +125,11 @@ span{
 
 .url:hover {
   text-decoration: underline;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+  font-size: 1rem;
 }
